@@ -14,9 +14,9 @@ const App = () => {
     ]
   );
   const [filter, setFilter] = useState('');
-  console.log(contacts);
+  
   const handleAddContact = ({ name, number }) => {
-    console.log(name, number);
+    
     const contact = {
       name,
       id: nanoid(),
